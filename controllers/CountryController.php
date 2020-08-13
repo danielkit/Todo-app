@@ -10,9 +10,6 @@ class CountryController extends Controller {
 
     public function actionIndex() {
 
-        // http://192.168.33.10/index.php?r=country - country = CountryController
-        // CountryController laster inn view 'index' fra views/country/index.php
-
         $query = Country::find();
 
         $pagination = new Pagination([
