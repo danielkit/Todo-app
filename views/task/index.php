@@ -421,24 +421,3 @@ use yii\helpers\Html;
     }
 
 </script>
-
-<!--
-let selectedItem = null;
-$('button.edit').on('click', updateTask());
-
-selectedItem = $(this).attr('data-foo');
-
-const correctID = $('#correctID').val();
-console.log("Selected item is: ", selectedItem);
-
-$ids = [];
-$ids[$list->ID] = []; ?>
-$ids[$list->ID][] = $task->ID;
-
-id = $($('.card-body button.edit[data-foo="' + id + '"]')).attr('data-foo');
-selectedEl = $($('.card-body button.edit[data-foo="' + id + '"]')).attr('data-foo');
-
-console.log("ID er: " + $($('.card-body button.edit[data-foo="' + id + '"]')).attr('data-foo'));
-
-id = $($('.card-body button.edit[data-foo="' + id + '"]')).attr('data-foo');
--->
